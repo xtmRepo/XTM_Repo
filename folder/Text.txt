@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Cherry
 Apple
 Banana
@@ -7,3 +8,13 @@ Plum
 Perry
 blackberry
 
+=======
+wisnia
+japko
+banan
+brzoskwinia
+ananas
+ślifka
+grushka
+jeżyna
+>>>>>>> 391474967d625e64493fe7831386e103ef51330c
