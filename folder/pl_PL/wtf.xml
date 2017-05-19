@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<root>
-        <text>Ala <a Style="italic">Tekst dla noda Button.</a> Ma <b Style="bgblue">Tekst dla noda ScreenName</b>Kota .<c ZupaKalafiorowa="xyz">Oraz tekst dla ostatniego noda ScreenSelection</c> i psa</text>
-        <text>Ala <a Style="italic">Tekst dla noda Button</a> Ma <b Style="bgblue">Tekst dla noda ScreenName.</b>Kota <c ZupaKalafiorowa="xyz">Oraz tekst dla ostatniego noda. ScreenSelection</c> i psa</text>
-
-		</root>
