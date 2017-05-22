@@ -18,6 +18,6 @@ asynchronous network.
 balanced-to-unbalanced transformer.
 balanced transmission line.
 basic group C.
-binary operation to bedzie ok.
+HEX operation to bedzie ok.
 BPA.
 Garden Grove, DK.
