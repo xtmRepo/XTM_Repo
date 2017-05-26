@@ -86,16 +86,4 @@ For the eleventh bug of Christmas, my manager said to me
      Ask them how they did it and
      See if they can do it again.
 
-For the twelfth bug of Christmas, my manager said to me
-     Tell them it's a feature
-     Say it's not supported
-     Change the documentation
-     Blame it on the hardware
-     Find a way around it
-     Say they need an upgrade
-     Reinstall the software
-     Ask for a dump
-     Run with the debugger
-     Try to reproduce it
-     Ask them how they did it and
-     See if they can do it again.
+And the last day, they calld me a fey
