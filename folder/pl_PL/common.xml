@@ -18,7 +18,7 @@
   </string>
   <string gender="masc" key="ChoicePopupCashOutButtonPoints">
    <original>{num}&lt;br/&gt;{point,count}</original>
-   <variation index="0">{num}&lt;br/&gt;{point,plural}</variation>
+  
    <variation index="1">{num}&lt;br/&gt;{point,singular}</variation>
   </string>
   <string gender="masc" key="ChoicePopupBuyButton">
