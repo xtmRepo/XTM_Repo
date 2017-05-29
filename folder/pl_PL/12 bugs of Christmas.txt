@@ -19,7 +19,7 @@ For the fourth bug of Christmas, my manager said to me
 For the fifth bug of Christmas, my manager said to me
   Ask for a dump
   Run with the debugger
-  Try to reproduce it
+  Try to reproduce itgfgfgfg
   Ask them how they did it and
   See if they can do it again.
 
