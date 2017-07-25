@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation spaceKey="EDCsrc" language="ja" originalLanguage="en" targetLanguage="ja" versionId="7F000001014B27F3DF550E91236F6317" variantId="all" exportTimestamp="2015-07-17 00:31">
+	<page pageId="64055931" scrollPageId="7F000001014690621FF2DB60475E995B" versionId="7F000001014B27F3DF550E91236F6317" version="5">
+		<title>
+			<![CDATA[Navigating to Study Task Summary in Rave EDC]]>
+		</title>
+		<content xmlns:atlassian-content="http://atlassian.com/content" xmlns:ac="http://atlassian.com/content" xmlns:ri="http://atlassian.com/resource/identifier" xmlns:atlassian-template="http://atlassian.com/template" xmlns:at="http://atlassian.com/template" xmlns="http://www.w3.org/1999/xhtml" >
+			<ac:layout>
+				<ac:layout-section ac:type="two_right_sidebar">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">Top_of_page</ac:parameter>
+							</ac:structured-macro>
+						</p><p>The Study Task Summary section displays details and pending tasks for a study. The summary statistics display depends on the navigational level, role, and your privileges. The task summary for a study can be further filtered for tasks that are related to the object the user is viewing.  </p>
+						<ac:structured-macro ac:name="mini-toc-panel">
+							<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+							<ac:parameter ac:name="Title">In this article:</ac:parameter>
+							<ac:rich-text-body>
+								<p>
+									<ac:structured-macro ac:name="toc">
+										<ac:parameter ac:name="style">square</ac:parameter>
+									</ac:structured-macro> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Using Study Task Summary</h1>
+						<ol>
+							<li>Navigate to Rave EDC home page.<span style="color: rgb(0,128,0);">
+									<strong>
+										<br />
+									</strong>
+								</span>
+							</li>
+							<li>
+								<p>Select a study. <span style="color: rgb(0,128,0);"> </span>
+									<br />The Study page displays a task summary for the selected study. Each task entry in the summary shows a count of all the entities that are one level below the current level, at the site level.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<strong>Note:</strong> A collapse <ac:image>
+											<ri:attachment ri:filename="collapse_icon.gif" />
+										</ac:image> or expand <ac:image>
+											<ri:attachment ri:filename="expand_icon.gif" />
+										</ac:image> icon next to the <strong>Task Summary</strong> label gives you an option to expand or collapse the entire list. Collapsing the list during routine use of Rave EDC significantly improves page response time. Default setting displays the collapse icon and the task summary list.</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+							<li>
+								<p>Click expand <ac:image>
+										<ri:attachment ri:filename="expand_icon.gif" />
+									</ac:image> for the selected task summary to view the detailed task list. <br />An item on the task list includes the site name. The tasks are paginated for each task category. </p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<strong>Note:</strong> The task summary only includes sites that are within the user&apos;s site group assignment.</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+							<li>Click the appropriate site to view task summary by subjects.</li>
+							<li>Click the pop-up <ac:image>
+									<ri:attachment ri:filename="pop_up_icon.gif" />
+								</ac:image> to view an expanded task list in a pop-up window. <br />The pop-up window displays the subject name and the folder name-form name. The task list in the pop-up window refreshes every time a form is saved. If a task no longer applies to a form, the task is removed from the list and the page count updates.</li>
+							<li>Click a subject to go to the form.</li>
+						</ol>
+						<h1>Information in Study Task Summary</h1><p>The following information appears in the Study Task Summary based on your permissions: </p>
+						<table>
+							<tbody>
+								<tr>
+									<th>Icon</th>
+									<th>Task</th>
+									<th>Description</th>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_sg.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Signature</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms that require signature.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_nc.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Non-Conformant Data</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms that have non-conformant data.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_rc.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Coding</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form requires coding.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_tr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Translation</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form requires translation.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_oq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Open Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form has an open query that is unanswered.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_aq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Answered Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form has an open query that is answered, but not closed.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/i_ynote.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Sticky Notes</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form has a sticky note that is pending acknowledgement.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_rr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Review</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form requires review.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_ru.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Verification</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form requires verification.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_od.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Overdue Data</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms that have data with an overdue status.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_fr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Ready for Entry Lock</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where any field on the form that can be frozen is ready to be entry-locked.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_lo.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Ready for Data Lock</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where any field on the form that can be frozen is ready to be hard-locked.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_oq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Cancel Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes sites that have subjects with forms where at least one field on the form has an open query that can be cancelled.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+					<ac:layout-cell>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Task Summaries</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content labeled with your desired concept and the label &apos;task&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">tasksummary</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Rave EDC</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content with your product&apos;s label, and &apos;concept&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">gettingstarted</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p> </p><p> </p><p> </p><p> </p><p> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+				</ac:layout-section>
+				<ac:layout-section ac:type="single">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="excerpt-include">
+								<ac:parameter ac:name="">
+									<ac:link>
+										<ri:page ri:space-key="GE" ri:content-title="Copyright (ENG)" />
+									</ac:link>
+								</ac:parameter>
+								<ac:parameter ac:name="nopanel">true</ac:parameter>
+							</ac:structured-macro>
+						</p>
+					</ac:layout-cell>
+				</ac:layout-section>
+			</ac:layout>
+		</content>
+	</page>
+	<page pageId="64055956" scrollPageId="7F0000010146906AB760D2526DA4B0AF" versionId="7F000001014B27F3DF550E91236F6317" version="3">
+		<title>
+			<![CDATA[Navigating to Site Task Summary in Rave EDC]]>
+		</title>
+		<content xmlns:atlassian-content="http://atlassian.com/content" xmlns:ac="http://atlassian.com/content" xmlns:ri="http://atlassian.com/resource/identifier" xmlns:atlassian-template="http://atlassian.com/template" xmlns:at="http://atlassian.com/template" xmlns="http://www.w3.org/1999/xhtml" >
+			<ac:layout>
+				<ac:layout-section ac:type="two_right_sidebar">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">Top_of_page</ac:parameter>
+							</ac:structured-macro>
+						</p><p style="margin-left: 0.0px;">The Site Task Summary section displays all tasks for the user within the selected site based on navigational level, role, and user privileges.</p>
+						<ac:structured-macro ac:name="mini-toc-panel">
+							<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+							<ac:parameter ac:name="Title">In this article:</ac:parameter>
+							<ac:rich-text-body>
+								<p>
+									<ac:structured-macro ac:name="toc">
+										<ac:parameter ac:name="style">square</ac:parameter>
+									</ac:structured-macro> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Using Site Task Summary</h1>
+						<ol>
+							<li>
+								<p>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong>.<br />The Site page displays a task summary for the selected site. Each task entry in the summary shows a count of all the entities that are one level below the current level, a count of all subjects at the site level.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<strong>Note:</strong> A collapse <ac:image>
+											<ri:attachment ri:filename="collapse_icon.gif" />
+										</ac:image> or expand <ac:image>
+											<ri:attachment ri:filename="expand_icon.gif" />
+										</ac:image> icon next to the <strong>Task Summary</strong> label gives you an option to expand or collapse the entire list. Collapsing the list during routine use of Rave EDC significantly improves page response time. Default setting is to display the collapse icon and the task summary list.</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+							<li>Click expand <ac:image>
+									<ri:attachment ri:filename="expand_icon.gif" />
+								</ac:image> for the task summary to view the details.</li>
+							<li>Click a subject to view details on the selected subject or the folder-form page.</li>
+							<li>
+								<p>You can also click the pop-up icon <ac:image>
+										<ri:attachment ri:filename="pop_up_icon.gif" />
+									</ac:image> to view the expanded task list in a pop-up window. <br />The task list on the pop-up window refreshes every time a form is saved. If a task no longer applies to a form, the task is removed from the list and the page count updates. </p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<p>
+											<strong>Note:</strong>
+										</p>
+										<ul>
+											<li>The subject name and the form-folder name on the pop-up window display as links that can help you navigate to the Subject page or the folder-form page<span style="color: rgb(0,128,0);"> </span> for the subject.</li>
+											<li>In case of a task entry requiring signature in the task summary, there may be a discrepancy between the number of subjects showing Requiring Signature at the Study Site task summary<span style="color: rgb(0,128,0);"> </span> drilldown list and the list that displays in the pop-up window. This is because the pop-up window only displays subjects that have specific forms marked as requiring signature. If there are subjects or folders marked as requiring signature, they display in the drilldown list but not in the pop-up window.</li>
+										</ul>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Information in Site Task Summary</h1><p style="margin-left: 0.0px;">The following information can appear in the Site Task Summary based on the user&apos;s role permissions:</p>
+						<table>
+							<tbody>
+								<tr>
+									<th>Icon</th>
+									<th>Task</th>
+									<th>Description</th>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_sg.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Signature</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms that have data that is entered and requires signature.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_nc.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Non Conformant Data</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms that have non-conformant data.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_rc.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Coding</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form requires coding.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_tr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Translation</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form requires translation.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_oq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Open Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form has an open query that is unanswered.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_aq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Answered Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form has an open query that is answered but is not closed.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/i_ynote.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Sticky Notes</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form has a sticky note that is pending acknowledgement.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_rr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Review</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form requires review.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_ru.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Verification</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form requires verification.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_od.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Overdue Data</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms that has data with an overdue status. In other words, the date is in the past.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_fr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Ready for Entry Lock</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where at least one field on the form that can be frozen is ready to be entry-locked.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_lo.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Ready for Data Lock</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where any field on the form that can be frozen is ready to be hard-locked.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_oq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Cancel Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes subjects who have forms where any field on the form has an open query that can be cancelled.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+					<ac:layout-cell>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Task Summaries</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content labeled with your desired concept and the label &apos;task&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">tasksummary</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Rave EDC</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content with your product&apos;s label, and &apos;concept&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">gettingstarted</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p> </p><p> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+				</ac:layout-section>
+				<ac:layout-section ac:type="single">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="excerpt-include">
+								<ac:parameter ac:name="">
+									<ac:link>
+										<ri:page ri:space-key="GE" ri:content-title="Copyright (ENG)" />
+									</ac:link>
+								</ac:parameter>
+								<ac:parameter ac:name="nopanel">true</ac:parameter>
+							</ac:structured-macro>
+						</p>
+					</ac:layout-cell>
+				</ac:layout-section>
+			</ac:layout>
+		</content>
+	</page>
+	<page pageId="64055975" scrollPageId="7F0000010146905202A3BCAC356DFEB5" versionId="7F000001014B27F3DF550E91236F6317" version="3">
+		<title>
+			<![CDATA[Navigating to Subject Task Summary in Rave EDC]]>
+		</title>
+		<content xmlns:atlassian-content="http://atlassian.com/content" xmlns:ac="http://atlassian.com/content" xmlns:ri="http://atlassian.com/resource/identifier" xmlns:atlassian-template="http://atlassian.com/template" xmlns:at="http://atlassian.com/template" xmlns="http://www.w3.org/1999/xhtml" >
+			<ac:layout>
+				<ac:layout-section ac:type="two_right_sidebar">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">Top_of_page</ac:parameter>
+							</ac:structured-macro>
+						</p><p>The Subject Task Summary section displays all tasks for the user within the selected site based on navigational level, role, and user privileges.</p>
+						<ac:structured-macro ac:name="mini-toc-panel">
+							<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+							<ac:parameter ac:name="Title">In this article:</ac:parameter>
+							<ac:rich-text-body>
+								<p>
+									<ac:structured-macro ac:name="toc">
+										<ac:parameter ac:name="style">square</ac:parameter>
+									</ac:structured-macro>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Using Subject Task Summary</h1>
+						<ac:structured-macro ac:name="info">
+							<ac:rich-text-body>
+								<strong>Note:</strong> The folder status is calculated based on the status of all the forms that belong in the folder. Within a folder, there might be forms that are hidden based on role permissions. The status of these hidden forms also contribute to the folder status. For example, you may see a folder that is non-conformant, but none of the forms under the folder that you can see may have a non-conformant status. This is because some of the hidden forms are non-conformant. </ac:rich-text-body>
+						</ac:structured-macro><p>
+							<span style="color: rgb(0,0,0);text-transform: none;text-indent: 0.0px;letter-spacing: normal;word-spacing: 0.0px;float: none;display: inline;white-space: normal;font-size-adjust: none;font-stretch: normal;background-color: rgb(255,255,255);">
+								<br />
+							</span>
+						</p>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong>.<br />The Subject page displays a subject task summary. Each task in the summary shows a count of all the entities that are one level below the current level, a count of forms for the subject. For example, the count for Ready for Entry Lock data is the number of forms for the subject where any field on the form that can be locked is ready to be entry-locked.</li>
+							<li>
+								<p>Click the expand <ac:image>
+										<ri:attachment ri:filename="expand_icon.gif" />
+									</ac:image> for a selected task summary item to view the detailed task list.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<strong>Note:</strong> A collapse <ac:image>
+											<ri:attachment ri:filename="collapse_icon.gif" />
+										</ac:image> or expand <ac:image>
+											<ri:attachment ri:filename="expand_icon.gif" />
+										</ac:image> icon next to the <strong>Task Summary</strong> label gives the user an option to expand or collapse the entire list. Collapsing the list during routine use of Rave EDC significantly improves page response time. Default setting displays the collapse icon and the task summary list.</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+							<li>
+								<p>Click any Folder-Form to view further details.</p>
+							</li>
+							<li>
+								<p>You can also click the pop-up icon <ac:image>
+										<ri:attachment ri:filename="pop_up_icon.gif" />
+									</ac:image> to view the expanded task list in a pop-up window.<br />The task list on the pop-up window refreshes every time a form is saved. If a task no longer applies to a form, the task is removed from the list and the page count updates.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<strong>Note:</strong> If there is a task entry Requiring Signature in task summary section, the pop-up window only displays subjects that have specific forms marked as requiring signature.</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>
+							<span style="color: rgb(0,0,0);text-transform: none;text-indent: 0.0px;letter-spacing: normal;word-spacing: 0.0px;float: none;display: inline;white-space: normal;font-size-adjust: none;font-stretch: normal;background-color: rgb(255,255,255);">Information in Subject Task Summary</span>
+						</h1><p>
+							<span style="color: rgb(0,0,0);text-transform: none;text-indent: 0.0px;letter-spacing: normal;word-spacing: 0.0px;float: none;display: inline;white-space: normal;font-size-adjust: none;font-stretch: normal;background-color: rgb(255,255,255);">The following tasks may appear in the Subject Task Summary section based on your permissions:</span>
+						</p>
+						<table>
+							<tbody>
+								<tr>
+									<th>Icon</th>
+									<th>Task</th>
+									<th>Description</th>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_sg.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Signature</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject that have data that is entered and requires signature.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_nc.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Non Conformant Data</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject that have non-conformant data.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_rc.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Coding</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form requires coding.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_tr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Translation</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form requires translation.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_oq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Open Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form has an open query that is unanswered.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_aq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Answered Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form has an open query that is answered but is not closed.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/i_ynote.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Sticky Notes</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form has a sticky note that is pending acknowledgement.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_rr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Review</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form requires review.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_ru.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Requiring Verification</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form requires verification.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_od.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Overdue Data</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject that has data with an overdue status. In other words, the date is in the past. <span style="color: rgb(0,128,0);"> </span>
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_fr.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Ready for Entry Lock</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where any field on the form that can be frozen is ready to be entry-locked.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_lo.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Ready for Data Lock</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where any field on the form that can be frozen is ready to be hard-locked.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="margin-left: 0.0px;">
+											<ac:image ac:height="16" ac:width="16">
+												<ri:url ri:value="http://rave-webhelp.s3.amazonaws.com/EDC/WebHelp_ENG/dp_oq.gif" />
+											</ac:image>
+										</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Cancel Queries</p>
+									</td>
+									<td>
+										<p style="margin-left: 0.0px;">Includes forms for the subject where at least one field on the form has an open query that can be cancelled.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+					<ac:layout-cell>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Task Summaries</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content labeled with your desired concept and the label &apos;task&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">tasksummary</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Rave EDC</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content with your product&apos;s label, and &apos;concept&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">gettingstarted</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p> </p><p> </p><p> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+				</ac:layout-section>
+				<ac:layout-section ac:type="single">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="excerpt-include">
+								<ac:parameter ac:name="">
+									<ac:link>
+										<ri:page ri:space-key="GE" ri:content-title="Copyright (ENG)" />
+									</ac:link>
+								</ac:parameter>
+								<ac:parameter ac:name="nopanel">true</ac:parameter>
+							</ac:structured-macro>
+						</p>
+					</ac:layout-cell>
+				</ac:layout-section>
+			</ac:layout>
+		</content>
+	</page>
+	<page pageId="64056035" scrollPageId="7F0000010146CEFEA547442C3A408F1E" versionId="7F000001014B27F3DF550E91236F6317" version="3">
+		<title>
+			<![CDATA[Viewing Subject Information in Rave EDC]]>
+		</title>
+		<content xmlns:atlassian-content="http://atlassian.com/content" xmlns:ac="http://atlassian.com/content" xmlns:ri="http://atlassian.com/resource/identifier" xmlns:atlassian-template="http://atlassian.com/template" xmlns:at="http://atlassian.com/template" xmlns="http://www.w3.org/1999/xhtml" >
+			<ac:layout>
+				<ac:layout-section ac:type="two_right_sidebar">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">Top_of_page</ac:parameter>
+							</ac:structured-macro>
+						</p><p>This article is an overview of the Subject Home page in Rave EDC.</p>
+						<ac:structured-macro ac:name="mini-toc-panel">
+							<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+							<ac:parameter ac:name="Title">In this article:</ac:parameter>
+							<ac:rich-text-body>
+								<p>
+									<ac:structured-macro ac:name="toc">
+										<ac:parameter ac:name="style">square</ac:parameter>
+									</ac:structured-macro>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">4</ac:parameter>
+							</ac:structured-macro>Viewing Subject Header</h1><p>The Subject Header contains data fields that are configured as subject header fields. The header fields cannot be edited and only show fields that you have permission to view.</p><p>
+							<ac:image>
+								<ri:attachment ri:filename="subject_header_JPN.gif" />
+							</ac:image>
+						</p>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">5</ac:parameter>
+							</ac:structured-macro>Updating Forms in the Subject Matrix</h1><p>The Subject Matrix on the left pane is a list of links to a subject&apos;s folders and forms that have to be filled out. These folders and forms are defined for a particular study and together form a matrix. When a new subject is added to a study, Rave EDC assigns a default matrix to the subject. Forms within each folder must be completed for each subject participating in the study. When data is added to the forms, each folder displays a status icon. See <ac:link ac:tooltip="Icons List">
+								<ri:page ri:content-title="Icons List" />
+								<ac:plain-text-link-body>
+									<span class="sv-cdata-translate">Icons List </span>
+								</ac:plain-text-link-body>
+							</ac:link>for more information.</p>
+						<ac:image>
+							<ri:attachment ri:filename="subject_matrix_JPN.gif" />
+						</ac:image><p>
+							<strong>To update forms in the subject matrix:</strong>
+						</p>
+						<ol>
+							<li>Click a folder name in the Subject Matrix.<br />The forms for the folder appear.</li>
+							<li>Select a form from the left pane, and enter the required data in the form.</li>
+							<li>Click <strong>Save</strong>.</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">6</ac:parameter>
+							</ac:structured-macro>Viewing CRF History</h1><p>Depending on your permissions, the CRF History on the left pane displays the last 10 CRFs accessed in the current session. The list shows the form name together with the subject name. </p>
+						<ul>
+							<li>Each form is a link in the CRF History. Click to navigate to the specific form.<br />
+								<ac:image>
+									<ri:attachment ri:filename="crf_history_JPN.gif" />
+								</ac:image>
+							</li>
+						</ul>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">7</ac:parameter>
+							</ac:structured-macro>Viewing Subject Summary</h1><p>The Subject Summary on the left pane displays key information on the subject, such as subject identifier, subject initials, and other information that you have permission to view.</p><p>The subject summary displays:</p>
+						<ul>
+							<li>Data fields that are requested by the study sponsor. </li>
+							<li>Data field labels indicating whether or not data is entered for the selected subject for that particular field.<br />
+								<ac:image>
+									<ri:attachment ri:filename="subject_summary_JPN.gif" />
+								</ac:image>
+							</li>
+						</ul>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">8</ac:parameter>
+							</ac:structured-macro>Restrictions for Setting Subject Status</h1><p>Your access to subjects in Rave is restricted based on the subject status in the study and your permission to work with subjects of a certain status. For example, if a subject&apos;s status in a study is set to Screened, Randomized, or Terminated, it is possible to exclude other users from seeing subjects with Screened status, while you could see all subjects. </p>
+						<ul>
+							<li>The task summary, count, and task summary pop-up at the study and site level only shows counts for subjects whose status you have permission to work with.</li>
+							<li>The subject list only shows subjects you have permission to work with.</li>
+							<li>Regular and <ac:link ac:tooltip="Selecting a Subject Using Advanced Search in Rave EDC">
+									<ri:page ri:content-title="Selecting a Subject Using Advanced Search in Rave EDC" />
+									<ac:plain-text-link-body>
+										<span class="sv-cdata-translate">advanced subject search </span>
+									</ac:plain-text-link-body>
+								</ac:link>only searches for subjects you have permission to access.</li>
+							<li>The last 10 subjects list only shows subjects you have permission to work with.</li>
+							<li>You can work on a subject whose status may change to a status you do not have permission to. The changes you make to the subject are saved to the database. However, once you exit the subject, you cannot access the subject again. </li>
+							<li>If subject status changes from a status you do not have permission to, to a status you have permission to<strong>
+									<span style="color: rgb(0,128,0);"> </span>
+								</strong>, the subject displays in the subject list and becomes available to you. The task summary, counts, and pop-up at the study and site level increases appropriately.</li>
+							<li>The Subject Status dropdown list in Advanced Search only shows subject statuses you have permission to work with.</li>
+						</ul>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">9</ac:parameter>
+							</ac:structured-macro>Working with Subject Schedules</h1><p>The Subject Schedule located on the Subject page lists patient visits. The Subject Schedule is read-only and enables you to schedule subsequent return visits. As forms are completed and submitted, the reference dates are automatically calculated and inserted into the Subject Schedule.   </p><p>You cannot edit or delete the Subject Schedule. It is typically based on a date within the study that is assigned as the default calendar start date. The entry of the default calendar start date sets the subject calendar based on the days offset specified for each individual folder.</p><p>By default, the Subject Schedule is sorted by visit.  It can also be sorted by visit and date.</p>
+						<ul>
+							<li>On the Subject<strong/>page, click the <strong>Visit</strong> or<strong> Date</strong> column headings to sort the schedule by visit or date.<br />
+								<ac:image>
+									<ri:attachment ri:filename="subject_schedules_JPN.gif" />
+								</ac:image>
+							</li>
+						</ul><p>The Subject Schedule displays the following information for the subject:</p>
+						<ul>
+							<li>Folder and Form links with status icons under the Visit column. The links direct you to the actual folder or form for the visit.</li>
+							<li>Date of the visit in preconfigured date format. Folder record date or form record date that is explicitly set from an edit check displays in bold text.<strong/>Target dates for visits that have not occurred displays in gray.  If there is no explicit record date or target date, no date displays.</li>
+						</ul><p>
+							<ac:link ac:tooltip="Batch Signing Subjects from the Calendar View in Rave EDC">
+								<ri:page ri:content-title="Batch Signing Subjects from the Calendar View in Rave EDC" />
+								<ac:plain-text-link-body>
+									<span class="sv-cdata-translate">Batch sign from the calendar view</span>
+								</ac:plain-text-link-body>
+							</ac:link>. Click <strong>Sign and Save</strong> to sign in the signature pop-up window. Signing the subject signs all folders, forms, and data points for the subject requiring signature.</p>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">10</ac:parameter>
+							</ac:structured-macro>Processing In Doubt Subjects</h1><p>An existing form that is overwritten with the content of an existing draft form in Rave Architect has all changes from the draft applied to the published version. CRF data of subjects associated with the overwritten form can be updated by restoring a previously saved overwritten draft with a new draft in Rave Architect. However, during restoration, derivations and edit checks for the affected subjects do not automatically update. As a result, these affected subjects are rendered a status of &apos;In Doubt&apos; in Rave EDC and marked with the <ac:image>
+								<ri:attachment ri:filename="in-doubt_icon.gif" />
+							</ac:image> icon.</p><p>Subjects with &apos;In Doubt&apos; status do not participate in the roll up process. Only subjects that do not have the &apos;In Doubt&apos; status are rolled up and reflected in the corresponding study site.</p>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> that has &apos;In Doubt&apos; subjects.</li>
+							<li>Click an &apos;In Doubt&apos; subject whose edit checks and derivations you want to run.<br />The system rolls up the subject and the &apos;In Doubt&apos; status goes away. You are directed to the Subject<strong/>page.</li>
+						</ol>
+						<h1>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">11</ac:parameter>
+							</ac:structured-macro>Viewing Primary Form</h1><p>A primary form is added to a study by default. You must complete the primary form prior to <ac:link ac:tooltip="Adding Subjects to Study in Rave EDC">
+								<ri:page ri:content-title="Adding Subjects to Study in Rave EDC" />
+								<ac:plain-text-link-body>
+									<span class="sv-cdata-translate">adding a subject </span>
+								</ac:plain-text-link-body>
+							</ac:link>to the site within a study. The fields on the primary form are used to derive the subject name within the study. The name and fields on the primary form are determined by the sponsor.  </p>
+						<ul>
+							<li>Click <strong>Primary</strong> on the Subject<strong/>page to view the form. <br />
+								<ac:image>
+									<ri:attachment ri:filename="primary_form_JPN.gif" />
+								</ac:image>
+							</li>
+						</ul>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+					<ac:layout-cell>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Subject Maintenance</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content labeled with your desired concept and the label &apos;task&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">subjectmaintain</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Rave EDC</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content with your product&apos;s label, and &apos;concept&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">gettingstarted</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p> </p><p> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+				</ac:layout-section>
+				<ac:layout-section ac:type="single">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="excerpt-include">
+								<ac:parameter ac:name="">
+									<ac:link>
+										<ri:page ri:space-key="GE" ri:content-title="Copyright (ENG)" />
+									</ac:link>
+								</ac:parameter>
+								<ac:parameter ac:name="nopanel">true</ac:parameter>
+							</ac:structured-macro>
+						</p>
+					</ac:layout-cell>
+				</ac:layout-section>
+			</ac:layout>
+		</content>
+	</page>
+	<page pageId="64056192" scrollPageId="7F0000010146A5297DFFBBCB401C1DDC" versionId="7F000001014B27F3DF550E91236F6317" version="3">
+		<title>
+			<![CDATA[Adding and Modifying Template Forms in Rave EDC]]>
+		</title>
+		<content xmlns:atlassian-content="http://atlassian.com/content" xmlns:ac="http://atlassian.com/content" xmlns:ri="http://atlassian.com/resource/identifier" xmlns:atlassian-template="http://atlassian.com/template" xmlns:at="http://atlassian.com/template" xmlns="http://www.w3.org/1999/xhtml" >
+			<ac:layout>
+				<ac:layout-section ac:type="two_right_sidebar">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">Top_of_page</ac:parameter>
+							</ac:structured-macro>
+						</p><p>A form can be configured as a template form. You can add, edit, and delete template forms by navigating to the Modify Template page from the form if you have the <strong>Can Modify Templates</strong> permission.<br />
+							<br />You can select and apply a template but cannot modify a template if you have the <strong>Can Use Templates</strong> permission. When you apply a template, all template fields and log fields are available for data entry. Data entry is unavailable only if the template is explicitly changed to another template or the form is reset back to its original state or overridden by an edit check.</p>
+						<ac:structured-macro ac:name="info">
+							<ac:rich-text-body>
+								<strong>Note:</strong> A template form used as a primary form within a draft does not display the Template.</ac:rich-text-body>
+						</ac:structured-macro>
+						<ac:structured-macro ac:name="mini-toc-panel">
+							<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+							<ac:parameter ac:name="Title">In this article:</ac:parameter>
+							<ac:rich-text-body>
+								<p>
+									<ac:structured-macro ac:name="toc">
+										<ac:parameter ac:name="style">square</ac:parameter>
+									</ac:structured-macro>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Applying a Template to a Template Form</h1>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a template form.<br />The template form includes a template dropdown that shows all available templates for the form across the site.<br />
+								<ac:image>
+									<ri:attachment ri:filename="template_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>
+								<p>Select the desired template from the <strong>Template</strong> dropdown.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<strong>Note:</strong> When a template is selected from the dropdown, an entry indicating the selection is written into the audit trail.</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+							<li>Click <strong>Save</strong>.</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Adding a New Template Form</h1>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a template form.</li>
+							<li>
+								<p>Click <strong>Modify Template</strong>.<br />The Modify Template page displays a list of templates already created for the form.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<p>
+											<strong>Note</strong>: If no templates have been created for the current template form, the Modify Templates link displays but the dropdown is hidden. The dropdown displays only when templates are created for the current form.</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+							<li>Click <strong>Add New</strong>.</li>
+							<li>Enter new template name.</li>
+							<li>Click <strong>update</strong>
+								<ac:image>
+									<ri:attachment ri:filename="update_template_Icon.gif" />
+								</ac:image>.</li>
+							<li>Click <ac:image>
+									<ri:attachment ri:filename="select_template_Icon.gif" />
+								</ac:image> to select fields for the new template.<br />The form displays fields that are defined for the selected form, regardless of the default visible property settings.</li>
+							<li>Select the fields that you want to include in the new template.</li>
+							<li>
+								<p>Click <strong>update</strong>
+									<ac:image>
+										<ri:attachment ri:filename="update_template_Icon.gif" />
+									</ac:image>.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<strong>Note:</strong> Log fields on a form, if any, including the log header, and the ability to add and inactivate log lines only displays if there is at least one log field visible. The log field may be visible as a result of the field being part of a template or an edit check.</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Modifying an Existing Template</h1>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a template form.</li>
+							<li>
+								<p>Click <strong>Modify Template</strong>.<span style="color: rgb(0,128,0);"> </span>
+									<br />The Modify Template page displays a list of templates already created for the form.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<p>
+											<strong>Note</strong>: If no templates have been created for the current template form, the Modify Templates link displays but the dropdown is hidden. The dropdown displays only when templates are created for the current form.</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+							</li>
+							<li>Select a template.</li>
+							<li>Click <ac:image>
+									<ri:attachment ri:filename="select_template_Icon.gif" />
+								</ac:image> to navigate to the template fields.</li>
+							<li>Select or deselect the fields to include or exclude from the template.</li>
+							<li>Click <strong>update</strong>
+								<ac:image>
+									<ri:attachment ri:filename="update_template_Icon.gif" />
+								</ac:image>.</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+					<ac:layout-cell>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Forms</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">forms</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Rave EDC</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">gettingstarted</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p> </p><p> </p><p> </p><p> </p><p> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+				</ac:layout-section>
+				<ac:layout-section ac:type="single">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="excerpt-include">
+								<ac:parameter ac:name="">
+									<ac:link>
+										<ri:page ri:space-key="GE" ri:content-title="Copyright (ENG)" />
+									</ac:link>
+								</ac:parameter>
+								<ac:parameter ac:name="nopanel">true</ac:parameter>
+							</ac:structured-macro>
+						</p>
+					</ac:layout-cell>
+				</ac:layout-section>
+			</ac:layout>
+		</content>
+	</page>
+	<page pageId="64056290" scrollPageId="7F0000010146A60FCC6EB8803B3B9F57" versionId="7F000001014B27F3DF550E91236F6317" version="4">
+		<title>
+			<![CDATA[Modifying Local Lab Ranges in Rave EDC]]>
+		</title>
+		<content xmlns:atlassian-content="http://atlassian.com/content" xmlns:ac="http://atlassian.com/content" xmlns:ri="http://atlassian.com/resource/identifier" xmlns:atlassian-template="http://atlassian.com/template" xmlns:at="http://atlassian.com/template" xmlns="http://www.w3.org/1999/xhtml" >
+			<ac:layout>
+				<ac:layout-section ac:type="two_right_sidebar">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">Top_of_page</ac:parameter>
+							</ac:structured-macro>
+						</p><p>You can enter reference ranges for a lab on the Lab Maintenance page if you have the <strong>Use Lab Maintenance</strong> permission.</p><p>You can maintain valid lab ranges for a lab in the Lab Analyte Ranges page. The Lab Analyte Ranges page displays information on analyte name and units, including dynamic fields that are determined from the range type for the lab. </p>
+						<ac:structured-macro ac:name="info">
+							<ac:rich-text-body>
+								<strong>Note:</strong> You cannot edit lab ranges, create new versions of lab ranges, or add new ranges for central labs in Rave EDC. Any central lab range is view-only. </ac:rich-text-body>
+						</ac:structured-macro>
+						<ac:structured-macro ac:name="mini-toc-panel">
+							<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+							<ac:parameter ac:name="Title">In this article:</ac:parameter>
+							<ac:rich-text-body>
+								<p>
+									<ac:structured-macro ac:name="toc">
+										<ac:parameter ac:name="style">square</ac:parameter>
+									</ac:structured-macro>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Adding Reference Ranges in Labs</h1>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a lab form.</li>
+							<li>Select a lab from the dropdown list of labs.</li>
+							<li>Click <strong>Edit</strong>
+								<strong>Ranges</strong>.<br />The Analyte Ranges page displays a list of all active ranges that are defined for the selected lab.<br />
+								<ac:image>
+									<ri:attachment ri:filename="edit_lab_ranges_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Click <strong>Add New Range</strong>
+								<ac:image>
+									<ri:attachment ri:filename="add_new_range_icon.gif" />
+								</ac:image>.<br />
+								<ac:image>
+									<ri:attachment ri:filename="add_new_range_JPN.jpg" />
+								</ac:image>
+							</li>
+							<li>Complete the required fields.</li>
+							<li>Click <strong>Update <ac:image>
+										<ri:attachment ri:filename="update_template_Icon.gif" />
+									</ac:image>
+								</strong>.<br />Rave EDC validates the data for the following criteria:<br />
+								<ul>
+									<li>
+										<strong>From Date</strong> must be less than <strong>To Date</strong>.</li>
+									<li>For variables with a low and a high value, the standard value for <strong>Low</strong> must be less than or equal to the standard value for <strong>High</strong>.</li>
+									<li>A variable value can be left blank if it is a character data type. For example, &quot;Sex&quot; may be blank to indicate both sexes. &quot;From Age&quot; cannot be blank.</li>
+									<li>
+										<strong>Low value</strong> and <strong>High value</strong> are required unless a data dictionary is specified. </li>
+									<li>
+										<p>The range must not overlap with any other range. For example, a range for a sex of &quot;Male&quot; cannot overlap a range for a sex of &quot;Female.&quot;</p>
+										<ac:structured-macro ac:name="info">
+											<ac:rich-text-body> <strong>Note:</strong> For new and updated lab ranges, Rave EDC resets the <strong>Approved Flag</strong> for a lab to <strong>Unapproved</strong>. <span style="color: rgb(0,128,0);"> </span>
+											</ac:rich-text-body>
+										</ac:structured-macro>
+									</li>
+								</ul>
+							</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Modifying Local Lab Ranges</h1>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a lab form.</li>
+							<li>Select a lab from the dropdown list of labs.</li>
+							<li>Click <strong>Edit</strong>
+								<strong>Ranges</strong>.<br />The Analyte Ranges page displays a list of all active ranges that are defined for the selected lab.</li>
+							<li>Click <strong>Edit</strong>
+								<ac:image>
+									<ri:attachment ri:filename="data_entry_pen_icon.gif" />
+								</ac:image> next to the lab range you wish to edit or delete.</li>
+							<li>Edit the lab range as needed.</li>
+							<li>Click <strong>Update</strong>. <br />To delete the lab range, select <strong>Delete</strong> and click <strong>Update</strong>.</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Creating Lab Range Versions<span style="color: rgb(0,128,0);"> </span>
+						</h1>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a lab form.</li>
+							<li>Select a lab from the dropdown list of labs.</li>
+							<li>Click <strong>Edit Ranges</strong>.<br />The Analyte Ranges page displays a list of all active ranges that are defined for the selected lab.</li>
+							<li>Click <strong>New Version</strong>
+								<ac:image>
+									<ri:attachment ri:filename="add_new_range_icon.gif" />
+								</ac:image>.<br />The new range version contains all data except the From and To dates. The date defaults to the current subject&apos;s visit date if you are maintaining the range in EDC. You may edit the value for From Date.</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro><p> </p>
+						<h1>Modifying Lab Ranges after Data is Locked<span> </span>
+						</h1><p>You can update lab ranges, such as changing a range&apos;s values, active dates, and so on, after data referencing the same lab is entered and locked in Rave EDC<span style="color: rgb(0,128,0);"> </span>. Depending on your Rave configuration, you may or may not be able to update lab ranges if data that references the corresponding lab is locked.</p>
+						<h2>Standard Update Behavior</h2><p>By default, if a lab is selected on a form and its lab ranges are updated, the locked data will not be affected. You can update assuming you have the appropriate permissions to update lab ranges by way of the <strong>Lab Maintenance</strong> role permission.</p>
+						<h2>Permissions-based Update Behavior</h2><p>Rave EDC may be configured to confirm that you have additional permissions in order to update lab ranges referenced by locked data points. In that case, Rave EDC allows you to update the lab ranges based on whether or not you can unlock locked data (by way of the <strong>Unlock</strong> role permission).</p><p>If you have the <strong>Lab Maintenance</strong> and <strong>Unlock</strong> role permissions and you attempt to save edits to lab ranges referenced by locked data, then the following occurs if the changes affect the data&apos;s out-of-range status:</p>
+						<ul>
+							<li>You receive a warning that the range is referenced by locked data. The message also mentions how many locked data points reference the range, including how you may may obtain details for the data<span style="color: rgb(0,128,0);"> </span> from the Lab Clinical View. Typically, this data is accessible by a report or outputs specialist who works with Rave data.</li>
+							<li>If you click <strong>OK</strong>, the changes are made and the locked data points update accordingly within EDC. If you click <strong>Cancel</strong>, no changes are made, and the lab range modification is not saved.</li>
+							<li>Upon clicking <strong>OK</strong>, the lab range saves, and any locked data that referenced the modified lab range unlocks. Any signatures applied to that data are broken, and the data may require review, verification, freezing, and locking again, depending on the specific data’s requirements.</li>
+						</ul><p>If you have the <strong>Lab Maintenance</strong> role permission, but not the <strong>Unlock</strong> role permission, and you attempt to save edits to a lab range referenced by locked data, then: </p>
+						<ul>
+							<li>You receive a message that indicates you cannot modify the lab range because you do not have permission to unlock data. The message also mentions how many locked data points reference the range, including how you may obtain details for the data from the Lab Clinical View. Typically, this data is accessible to a report or outputs specialist who works with Rave data.</li>
+							<li>You can click <strong>OK</strong> to close the message. No changes are made to the lab range or to the data status in EDC.</li>
+						</ul>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+					<ac:layout-cell>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Lab Maintenance </ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content labeled with your desired concept and the label &apos;task&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">labmaintain</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Rave EDC</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content with your product&apos;s label, and &apos;concept&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">gettingstarted</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p> </p><p> </p><p> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+				</ac:layout-section>
+				<ac:layout-section ac:type="single">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="excerpt-include">
+								<ac:parameter ac:name="">
+									<ac:link>
+										<ri:page ri:space-key="GE" ri:content-title="Copyright (ENG)" />
+									</ac:link>
+								</ac:parameter>
+								<ac:parameter ac:name="nopanel">true</ac:parameter>
+							</ac:structured-macro>
+						</p>
+					</ac:layout-cell>
+				</ac:layout-section>
+			</ac:layout>
+		</content>
+	</page>
+	<page pageId="64056466" scrollPageId="7F0000010146AF605273012A474BF959" versionId="7F000001014B27F3DF550E91236F6317" version="3">
+		<title>
+			<![CDATA[Managing Queries in Rave EDC]]>
+		</title>
+		<content xmlns:atlassian-content="http://atlassian.com/content" xmlns:ac="http://atlassian.com/content" xmlns:ri="http://atlassian.com/resource/identifier" xmlns:atlassian-template="http://atlassian.com/template" xmlns:at="http://atlassian.com/template" xmlns="http://www.w3.org/1999/xhtml" >
+			<ac:layout>
+				<ac:layout-section ac:type="two_right_sidebar">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="anchor">
+								<ac:parameter ac:name="">Top_of_page</ac:parameter>
+							</ac:structured-macro>
+						</p><p>A query is a question about a data point on a form that can be manually triggered or is triggered automatically by the system. When a query is added to a form, the query shows in the <ac:link ac:tooltip="About Task Summaries in Rave EDC">
+								<ri:page ri:content-title="About Task Summaries in Rave EDC" />
+								<ac:plain-text-link-body>
+									<span class="sv-cdata-translate">Task Summary</span>
+								</ac:plain-text-link-body>
+							</ac:link>. You can navigate to the query from the Task Summary. All associated activities with a query, such as, open, response, cancel, close, re-query, are recorded in the audit trail.</p>
+						<ac:structured-macro ac:name="info">
+							<ac:rich-text-body>
+								<p>
+									<strong>Note:</strong> A subject cannot be signed off until all associated open queries are closed.</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<ac:structured-macro ac:name="mini-toc-panel">
+							<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+							<ac:parameter ac:name="Title">In this article:</ac:parameter>
+							<ac:rich-text-body>
+								<p>
+									<ac:structured-macro ac:name="toc">
+										<ac:parameter ac:name="style">square</ac:parameter>
+									</ac:structured-macro>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Types of Queries</h1><p>Queries consists of a text box and the option to require an explanation regarding the queried data. A query displays on the form page generally in pink or red, with a query message and the data entry field open for editing.<br />
+							<ac:image>
+								<ri:attachment ri:filename="types_of_queries_JPN.jpg" />
+							</ac:image>
+						</p><p>There are two query types:</p>
+						<ul>
+							<li>
+								<strong>Manual Queries</strong> – Opens at the data point by a user, such as CRA or DM, to site personnel for clarification or correction on a submitted data point.</li>
+							<li>
+								<strong>System Queries</strong> – Automatically generated by Rave EDC or a sponsor system when, for example, there is an issue with submitted data, a required field is left blank, or when a data point does not conform to a pre-configured edit check<span style="color: rgb(0,128,0);"> </span>. A Rave EDC-generated query normally does not require a response. However, if a response is required, a user response text box or a dropdown displays. <br />The data field is highlighted and displays non-conformant <ac:image>
+									<ri:attachment ri:filename="Non_Conformant.gif" />
+								</ac:image>. A query message displays a data entry field open for editing. The query indicates the required data to clear the query.</li>
+						</ul>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Creating Manual Queries</h1><p>You can create a manual query at the data point if you have permissions.</p>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a form.</li>
+							<li>Click <strong>marking <ac:image>
+										<ri:attachment ri:filename="marking_plus_JPN.gif" />
+									</ac:image>
+								</strong>to the right of the field you want to add a query.<br />
+								<ac:image>
+									<ri:attachment ri:filename="creating_manual_queries_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Select <strong>Open Query</strong> from the dropdown of marking types.</li>
+							<li>Select an appropriate <strong>Marking Group</strong>.</li>
+							<li>Enter a comment up to 1000 characters in the text box or insert a markup tag using XML (Extensible Markup Language) that translates into either text or a link. For more information, see <ac:link ac:tooltip="Using XML in Markings in Rave EDC">
+									<ri:page ri:content-title="Using XML in Markings in Rave EDC" />
+									<ac:plain-text-link-body>
+										<span class="sv-cdata-translate">Using XML in Markings</span>
+									</ac:plain-text-link-body>
+								</ac:link>.</li>
+							<li>
+								<strong>Require Response</strong> is selected by default. You may deselect if a response is not required.</li>
+							<li>Click <strong>Save</strong>.<br />
+								<ac:image>
+									<ri:attachment ri:filename="creating_manual_queries_1_JPN.gif" />
+								</ac:image>
+							</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Cancelling Manual Queries</h1><p>You can cancel a manual query if:</p>
+						<ul>
+							<li>The query does not require a response, or</li>
+							<li>No response is posted to a query that requires a response.</li>
+						</ul>
+						<ol>
+							<li>Select <strong>Cancel</strong> for the <strong>Manual Query</strong> on the data form.<br />
+								<ac:image>
+									<ri:attachment ri:filename="cancelling_queries_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Click <strong>Save</strong>.<br />Rave EDC cancels the query and tracks the action in the audit trail. </li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Answering Queries</h1><p>You can respond to queries in two ways:</p>
+						<ul>
+							<li>Modify the data in the data entry field. No additional response is required.<br />
+								<ac:image>
+									<ri:attachment ri:filename="answering_queries_1_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Include an additional response in the user response field. The response field may be free text or a Reasons dropdown.<br />
+								<ac:image>
+									<ri:attachment ri:filename="answering_queries_2_JPN.gif" />
+								</ac:image>
+							</li>
+						</ul><p> </p>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a form with an open query.<br />
+								<ac:image>
+									<ri:attachment ri:filename="resolving_queries_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Make changes to the data as required. </li>
+							<li>
+								<p>Click <strong>Save</strong>.<br />The answered query <ac:image>
+										<ri:attachment ri:filename="Answered_Query.gif" />
+									</ac:image> displays. You can forward to authorized users who can close the query or re-query it.</p>
+								<ac:structured-macro ac:name="info">
+									<ac:rich-text-body>
+										<p>
+											<strong>Note:</strong> Forward Query is a configurable option that can be disabled at your request.</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p>
+									<ac:image>
+										<ri:attachment ri:filename="resolving_queries_1_JPN.gif" />
+									</ac:image>
+								</p>
+							</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Closing Manual Queries </h1>
+						<ac:structured-macro ac:name="info">
+							<ac:rich-text-body>
+								<p>
+									<strong>Note:</strong> An answered query can be closed. An unanswered open query can be cancelled, but cannot be closed.</p>
+							</ac:rich-text-body>
+						</ac:structured-macro><p> </p>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a form that has an answered query and is ready to be closed.<br />
+								<ac:image>
+									<ri:attachment ri:filename="closing_manual_queries_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Select <strong>Close Query</strong> from the dropdown.</li>
+							<li>Click <strong>Save</strong>. </li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Closing System Queries</h1><p>A system query closes automatically when the data value is corrected.</p><p>If a system query is marked as requiring both a response and a manual close, you have two options:</p>
+						<ul>
+							<li>Correct the data value. The query requires no response to close. The response text box turns gray indicating that no response is required to close the query. Click <strong>Save</strong>. The query closes.<br />
+								<ac:image>
+									<ri:attachment ri:filename="closing_system_queries_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>
+								<p>Correct the data value and enter a response. Click <strong>Edit <ac:image>
+											<ri:attachment ri:filename="data_entry_pen_icon_JPN.gif" />
+										</ac:image>
+									</strong> and enter a response. Click <strong>Save</strong>. The query closes.</p><p> <ac:image>
+										<ri:attachment ri:filename="closing_system_queries_1_JPN.gif" />
+									</ac:image>
+								</p>
+							</li>
+						</ul>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Re-Querying Manual Queries</h1>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a form that requires a re-query.<br />
+								<ac:image>
+									<ri:attachment ri:filename="Re-querying_Manual_Queries_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Select <strong>Re-Query</strong> from the dropdown.<br />An additional manual query appears with ‘Requires Response’ selected by default.<br />
+								<ac:image>
+									<ri:attachment ri:filename="Re-querying_Manual_Queries_1_JPN.gif" />
+								</ac:image>
+								<br />
+								<br />
+							</li>
+						</ol>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+						<h1>Forwarding Queries</h1><p>You can forward both a manual query and a system query to any marking group if you have the<strong> Forward Query</strong> role action.</p>
+						<ac:structured-macro ac:name="info">
+							<ac:rich-text-body>
+								<p>
+									<strong>Note:</strong> A query can be opened to only one marking group at a time.</p>
+							</ac:rich-text-body>
+						</ac:structured-macro><p> </p>
+						<ol>
+							<li>Navigate to a <strong>Study</strong> &gt; <strong>Site</strong> &gt; <strong>Subject</strong> &gt; a form that has a query placed on a field.<br />
+								<ac:image>
+									<ri:attachment ri:filename="forwarding_queries_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Click <strong>Forward</strong>.</li>
+							<li>Select a <strong>Marking Group</strong> from the dropdown.<br />
+								<ac:image>
+									<ri:attachment ri:filename="forwarding_queries_1_JPN.gif" />
+								</ac:image>
+							</li>
+							<li>Click <strong>Save</strong>.<br />Rave EDC forwards the query to the selected marking group. <br />
+								<ac:image>
+									<ri:attachment ri:filename="forwarding_queries_2_JPN.gif" />
+								</ac:image>
+							</li>
+						</ol><p> </p>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<p style="text-align: right;">
+									<ac:link ac:anchor="Top_of_page">
+										<ac:plain-text-link-body>
+											<span class="sv-cdata-translate">Back to top</span>
+										</ac:plain-text-link-body>
+									</ac:link>
+								</p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+					<ac:layout-cell>
+						<ac:structured-macro ac:name="scroll-ignore">
+							<ac:rich-text-body>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Markings</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content labeled with your desired concept and the label &apos;task&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">markings</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro>
+								<ac:structured-macro ac:name="related-topics-panel">
+									<ac:parameter ac:name="atlassian-macro-output-type">BLOCK</ac:parameter>
+									<ac:parameter ac:name="Title">More about Rave EDC</ac:parameter>
+									<ac:rich-text-body>
+										<p>
+											<ac:placeholder>Update the below Macro to list all content with your product&apos;s label, and &apos;concept&apos;.</ac:placeholder>
+										</p><p>
+											<ac:structured-macro ac:name="contentbylabel">
+												<ac:parameter ac:name="spaces">
+													<ri:space ri:space-key="@self" />
+												</ac:parameter>
+												<ac:parameter ac:name="showLabels">false</ac:parameter>
+												<ac:parameter ac:name="max">99</ac:parameter>
+												<ac:parameter ac:name="labels">gettingstarted</ac:parameter>
+												<ac:parameter ac:name="showSpace">false</ac:parameter>
+												<ac:parameter ac:name="type">page</ac:parameter>
+												<ac:parameter ac:name="operator">AND</ac:parameter>
+											</ac:structured-macro>
+										</p>
+									</ac:rich-text-body>
+								</ac:structured-macro><p> </p><p> </p><p> </p><p> </p>
+							</ac:rich-text-body>
+						</ac:structured-macro>
+					</ac:layout-cell>
+				</ac:layout-section>
+				<ac:layout-section ac:type="single">
+					<ac:layout-cell>
+						<p>
+							<ac:structured-macro ac:name="excerpt-include">
+								<ac:parameter ac:name="">
+									<ac:link>
+										<ri:page ri:space-key="GE" ri:content-title="Copyright (ENG)" />
+									</ac:link>
+								</ac:parameter>
+								<ac:parameter ac:name="nopanel">true</ac:parameter>
+							</ac:structured-macro>
+						</p>
+					</ac:layout-cell>
+				</ac:layout-section>
+			</ac:layout>
+		</content>
+	</page>
+</translation>
