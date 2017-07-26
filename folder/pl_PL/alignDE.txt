@@ -88,3 +88,4 @@ Bogen
 Kleid
 Hut
 Gewehrz
+KRK48
