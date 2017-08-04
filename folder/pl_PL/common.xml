@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings locale="en_US" revision="6726">
+ <pkg name="Grid">
+  <string gender="masc" key="ChoicePopupPaySpinButton">
+   <original>SPIN! Sentence 2</original>
+  </string>
+  <string gender="masc" key="ChoicePopupPaySpinButtonPoints">
+   <original>
+	   - {num}&lt;br/&gt;{point,count}
+   </original>
+   <comment>koment1</comment>
+   <comment>koment2</comment>
+   <variation index="0">- {num}&lt;br/&gt;{point,plural}</variation>
+   <variation index="1">- {num}&lt;br/&gt;{point,singular}</variation>
+  </string>
+  <string gender="masc" key="ChoicePopupCashOutButton">
+   <original>BANK!</original>
+  </string>
+  <string gender="masc" key="ChoicePopupCashOutButtonPoints">
+   <original>{num}&lt;br/&gt;{point,count}</original>
+   <variation index="0">{num}&lt;br/&gt;{point,plural}</variation>
+   <variation index="1">{num}&lt;br/&gt;{point,singular}</variation>
+  </string>
+  <string gender="masc" key="ChoicePopupBuyButton">
+   <original>BUY. New text</original>
+  </string>
+  </pkg></strings>
